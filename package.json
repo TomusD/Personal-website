@@ -2,7 +2,7 @@
   "homepage": "https://TomusD.github.io/Personal-website/",
   "name": "react-website",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
     "@emailjs/browser": "^4.3.3",
