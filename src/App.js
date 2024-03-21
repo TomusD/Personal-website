@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element = {<Home/>} />
+      <Route path="https://tomusd.github.io/Personal-website/" element = {<Home/>} />
       <Route path="/DataViz" element = {<DataViz/>} />
       <Route path="/Credits" element = {<Credits/>} />
       <Route path="/Contact" element = {<Contact/>} />
