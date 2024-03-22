@@ -41,7 +41,7 @@ const Form = () => {
         emailjs.sendForm('service_0z1fxvj', 'template_jyofy7j', e.target, '4h1d8pvsbGgRJvBAT')
         .then((result) => {
             console.log(result.text);
-            alert("Your Mail has been sent!");
+            alert("Your message has been sent!");
         }, (error) => {
             console.log(error.text);
         });

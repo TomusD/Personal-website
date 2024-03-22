@@ -30,7 +30,7 @@ function DataVizContent() {
                 <a href="https://www.amazon.com/Singularity-Near-Humans-Transcend-Biology/dp/0143037889" 
                     target="_blank" 
                     rel="noreferrer" > 
-                <button className="btn-light"> Source</button></a>
+                <button className="btn btn-light"> Source</button></a>
         </div>
 
         <div className="right2">
