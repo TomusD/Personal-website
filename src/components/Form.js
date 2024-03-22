@@ -3,10 +3,10 @@ import React from 'react'
 import emailjs from '@emailjs/browser'
 import { useState } from 'react'
 
-// Email function logic
 
 const Form = () => {
 
+    // Form validation logic
     const [formData, setFormData] = useState({
         from_name: '',
         email_from: '',
@@ -27,8 +27,8 @@ const Form = () => {
     // Email function logic
     const sendEmail = (e) => {
         e.preventDefault();
-        if (!formData.from_name || !formData.email_from || 
-            !formData.from_subject || !formData.from_message) {
+        
+        if (!formData.from_name || !formData.email_from || !formData.from_subject || !formData.from_message) {
             alert("Please fill out all fields.");
             return;
         }
@@ -41,6 +41,7 @@ const Form = () => {
         emailjs.sendForm('service_0z1fxvj', 'template_jyofy7j', e.target, '4h1d8pvsbGgRJvBAT')
         .then((result) => {
             console.log(result.text);
+            alert("Your Mail has been sent!");
         }, (error) => {
             console.log(error.text);
         });
