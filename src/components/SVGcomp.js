@@ -3,7 +3,7 @@ import React from 'react'
 import { useState , useEffect } from 'react'
 
 function SVGcomp() {
-    const [WidthValue, setWidth] = useState('2200');
+    const [WidthValue, setWidth] = useState('440');
     const [animationValuesRect, setAnimationValuesRect] = useState('10;2200;10');
     const [timeValuesRect, setTimeValuesRect] = useState('15s');
     const [animationValueCircle, setAnimationValuesCircle] = useState('10;2200;10');
@@ -22,7 +22,7 @@ function SVGcomp() {
 
             // Dynamically adjust the animation values based on the window width
             if (window.innerWidth < 1135) {
-                setWidth('460');
+                setWidth('440');
                 setAnimationValuesRect('10;440;10');
                 setTimeValuesRect('7s')
                 setAnimationValuesCircle('135;400;135')
