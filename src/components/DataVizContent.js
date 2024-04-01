@@ -25,12 +25,15 @@ function DataVizContent() {
                 which states that the number of transistors on a microchip doubles approximately 
                 every two years, leading to an exponential increase in computational power. 
                 This trend has significant implications for the development of artificial 
-                intelligence and other advanced technologies.</p>
+                intelligence and other advanced technologies.
+            </p>
 
                 <a href="https://www.amazon.com/Singularity-Near-Humans-Transcend-Biology/dp/0143037889" 
                     target="_blank" 
                     rel="noreferrer" > 
-                <button className="btn btn-light"> Source</button></a>
+                <button className="btn btn-light"> 
+                    Source
+                </button></a>
         </div>
 
         <div className="right2">

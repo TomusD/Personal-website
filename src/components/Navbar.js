@@ -43,6 +43,9 @@ const Navbar = () => {
                 <Link to="/DataViz">DataViz</Link>
             </li>
             <li>
+                <Link to="/PaperReviews">Paper Reviews</Link>
+            </li>
+            <li>
                 <Link to="/Credits">Credits</Link>
             </li>
             <li>
