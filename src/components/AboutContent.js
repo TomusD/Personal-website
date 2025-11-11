@@ -1,4 +1,4 @@
-import "./AboutContent&DataVizStyles.css"
+import "./AboutContent&CVStyles.css"
 import { Link } from "react-router-dom"
 import React from 'react'
 import PersonalPhoto from "../assets/PersonalPhoto.jpg"
